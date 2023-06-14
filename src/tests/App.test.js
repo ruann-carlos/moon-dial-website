@@ -5,4 +5,5 @@ import App from '../App.js';
 test('renders correctly', () => {
   const component = render(<App />);
   expect(component).toMatchSnapshot();
+  return;
 });
