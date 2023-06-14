@@ -44,11 +44,7 @@ Object {
           src="logo.svg"
         />
         <p>
-          Edit 
-          <code>
-            src/App.js
-          </code>
-           and save to reload.
+          This will be a website someday!
         </p>
         <a
           class="App-link"
