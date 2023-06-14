@@ -17,7 +17,7 @@ jobs:
         run: docker build -t moon-dial .
 
       - name: Run tests
-        run: docker run moon-dial npm test --detectOpenHandle
+        run: docker run moon-dial npm test --no-watch 
 
       - name: Push Docker image
         uses: docker/build-push-action@v2
